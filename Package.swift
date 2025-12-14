@@ -2,13 +2,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "FFmpegKit",
+    name: "FFmpegKit_tvOS",
     defaultLocalization: "en",
     platforms: [.macOS(.v10_15), .macCatalyst(.v14), .iOS(.v13), .tvOS(.v13),
                 .visionOS(.v1)],
     products: [
         .library(
-            name: "FFmpegKit",
+            name: "FFmpegKit_tvOS",
 //            type: .static,
             targets: ["FFmpegKit"]
         ),
